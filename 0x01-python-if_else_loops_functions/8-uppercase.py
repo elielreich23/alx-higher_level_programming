@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-def isuppercase(l):
-    if ord(l) >= 97 and ord(l) <= 122:
-        return (ord(l) - 32)
+def isuppercase(letter):
+    if ord(letter) >= 97 and ord(letter) <= 122:
+        return (ord(letter) - 32)
     else:
-        return (ord(l))
+        return (ord(letter))
 
 
 def uppercase(str):
     new = ""
-    for l in str:
-        new += "%c" % isuppercase(l)
+    for letter in str:
+        new += "%c" % isuppercase(letter)
     print("{:s}".format(new))
