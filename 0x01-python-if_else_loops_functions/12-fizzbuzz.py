@@ -7,11 +7,12 @@ def fizzbuzz():
             print('Fizz', end=' ')
         elif number % 5 == 0:
             if number == 100:
-             print('Buzz', end=' ')
+                print('Buzz', end=' ')
             else:
-             print('Buzz', end=' ')
+                print('Buzz', end=' ')
         else:
             print('{:d}'.format(number), end=' ')
+
 
 if __name__ == '__main__':
     fizzbuzz()
