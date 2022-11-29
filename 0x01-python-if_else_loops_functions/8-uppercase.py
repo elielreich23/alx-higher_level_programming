@@ -1,7 +1,13 @@
 #!/usr/bin/python3
+def isuppercase(l):
+    if ord(l) >= 97 and ord(l) <= 122:
+        return (ord(l) - 32)
+    else:
+        return (ord(l))
+
+
 def uppercase(str):
-    """Print a string in upperrcase."""
-    for c in str:
-        if ord(c) >= 97 and ord(c) <= 123:
-            c = chr(ord(c) - 32)
-        print("{}".format(c), end="")
+    new = ""
+    for l in str:
+        new += "%c" % isuppercase(l)
+    print("{:s}".format(new))
