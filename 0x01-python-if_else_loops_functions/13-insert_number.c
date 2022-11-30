@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "list.h"
 
 /**
  *insert_node - Inserts a num into a sorted singly-linked list
