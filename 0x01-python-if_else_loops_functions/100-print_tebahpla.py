@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-nc = 0
-for n in range(122, 96, -1):
-    if n % 2 == 0:
-        nc = n
+c = 0
+for m in range(122, 96, -1):
+    if m % 2 == 0:
+        c = m
     else:
-        nc = n - 32
-    print('{}'.format(chr(nc)), end='')
+        c = m - 32
+    print('{}'.format(chr(c)), end='')
