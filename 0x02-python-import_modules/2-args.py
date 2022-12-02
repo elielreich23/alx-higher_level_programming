@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#ask for explanation
+#ask for explanation for this code
 if __name__ == "__main__":
     from sys import argv 
 
