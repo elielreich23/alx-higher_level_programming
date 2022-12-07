@@ -35,9 +35,8 @@ else:
     print("{} / {} = {}".format(num1, num2, num1 / num2)) """
 
 
-# loop 
-for i in range(0, 101):
-    print(i)
-    # if (i % 2 == 0):
-    #     a = i
-
+for i in range(1, 101):
+    if i%2 != 0:
+        print(i, end=' ')
+    elif i % 2 ==0:
+        print('even', end=' ')
