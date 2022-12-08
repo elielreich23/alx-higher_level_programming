@@ -1,38 +1,34 @@
-# 0x00. Python - Hello, World
-
-[![ALX-Python-Programming](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+# 0x04. Python - More Data Structures: Set, Dictionary
 
 # Requirements
 
-## Python Scripts
+## General
 
-1. Allowed editors: vi, vim, emacs
-2. All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-3. All your files should end with a new line
-4. The first line of all your files should be exactly #!/usr/bin/python3
-5. A README.md file at the root of the repo, containing a description of the repository
-6. A README.md file, at the root of the folder of this project, is mandatory
-7. Your code should use the pycodestyle (version 2.8.*)
-8. All your files must be executable
-9. The length of your files will be tested using wc
+> Allowed editors: vi, vim, emacs
+> All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+> All your files should end with a new line
+> The first line of all your files should be exactly #!/usr/bin/python3
+> A README.md file, at the root of the folder of the project, is mandatory
+> Your code should use the pycodestyle (version 2.8.*)
+> All your files must be executable
+> The length of your files will be tested using wc
 
-# Shell Scripts
+# More Data Structures: Set, Dictionary
 
-1. Allowed editors: vi, vim, emacs
-2. All your scripts will be tested on Ubuntu 20.04 LTS
-3. All your scripts should be exactly two lines long (wc -l file should print 2)
-4. All your files should end with a new line
-5. The first line of all your files should be exactly #!/bin/bash
-6. All your files must be executable
+- 0-square_matrix_simple.py: function that computes the square value of all integers of a matrix
+- 1-search_replace.py: function that replaces all occurrences of an element by another in a new list
+- 2-uniq_add.py: function that makes the addition of all unique integers in a list (only one time each integer)
+- 3-common_elements.py: function that returns a set of common elements in two sets
+- 4-only_diff_elements.py: function that returns a set of all elements present in only one set
+- 5-number_keys.py: function that returns the number of keys in a dictionary
+- 6-print_sorted_dictionary.py: function that prints a dictionary by ordered keys
+- 7-update_dictionary.py: function that replace or add key/value in a dictionary
+- 8-simple_delete.py: function that deletes a key in a dictionary
+- 9-multiply_by_2.py: function that returns a new dictionary with all values multiplied by 2
+- 10-best_score.py: function that returns a key with the biggest integer value
+- 11-mutiply_list_map.py: function that returns a list with all values multiplied by a number without using any loops
+- 12-roman_to_int.py: function def roman_to_int(roman_string): that converts a Roman number to an integer
+- 100-weight_average.py: function that returns the weighted average of all integers tuple
+- 101-square_matrix_map.py: function that computes the square value of all integers of a matrix using map
+- 102-complex_delete.py: function that deletes keys with a specific value in a dictionary
 
-# C Scripts
-1. Allowed editors: vi, vim, emacs
-2. All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-3. All your files should end with a new line
-4. Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-5. You are not allowed to use global variables
-6. No more than 5 functions per file
-7. In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-8. The prototypes of all your functions should be included in your header file called lists.h
-9. Don’t forget to push your header file
-10. All your header files should be include guarded
