@@ -10,7 +10,7 @@ class Square:
         size (`int`): The size of the ``Square``.
     """
     def __init__(self, size):
-        """Constructs a ``Square`` objet
+        """Construction of a ``Square`` objet
         Args:
             size (`int`): The size of the ``Square``.
         """
