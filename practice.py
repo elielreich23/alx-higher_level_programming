@@ -57,7 +57,7 @@ while height != 0:
     for i in range(space):
         print(' ', end="")
     for i in range(hashes):
-        print('#', end="")
+        print('*', end="")
         
     print()
 
@@ -68,4 +68,4 @@ while height != 0:
 for i in range(stump_spaces):
     print(' ', end="")
 
-print("#")
+print("*")
