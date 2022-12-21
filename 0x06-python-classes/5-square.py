@@ -1,29 +1,57 @@
 #!/usr/bin/python3
 """
-class that defines a square
+This module defines a simple `Square` class
 """
-
 class Square:
+    """A simple ``Square`` class
+    Attributes:
+        size (`int`): The size of the ``Square``.
+    """
     def __init__(self, size=0):
-        self.__size = size
-    
-    @property
-    def size(self):
-        return self.__size
-
-    @size.setter
-    def size(self, value):
-        if (type(value is not int)):
-            raise TypeError ("must be integer")
-        elif (value <0 ):
-            raise ValueError("size must be >= 0")
-        self.__size = value
+        """Constructs a ``Square`` objet
+        Args:
+            size (`int`): The size of the ``Square``.
+                The default value is 0.
+        Raises:
+            TypeError: If ``size`` is not an integer.
+            ValueError: If ``size`` < 0
+        """
+        self.size = size
 
     def area(self):
-        return self.__size ** 2
-    
+        """Computes the area of the ``Square``.
+        Returns:
+            int: The area of the ``Square``.
+        """
+        return self._Square__size ** 2
+
+    @property
+    def size(self):
+        """
+        Args:
+            size (`int`): The size of the ``Square``.
+                The default value is 0.
+        Raises:
+            TypeError: If ``size`` is not an integer.
+            ValueError: If ``size`` < 0
+        """
+        return self._Square__size
+
+    @size.setter
+    def size(self, size):
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
+        else:
+            self._Square__size = size
+
     def my_print(self):
-        if not self.__size:
-            print("")
-        for i in range(self.__size):
-            print("#" * self.__size)
+        """Prints a ``Square`` filled with '#'"""
+        if self.size:
+            for i in range(self.size):
+                for j in range(self.size):
+                    print("#", end="")
+                print()
+        else:
+            print()
