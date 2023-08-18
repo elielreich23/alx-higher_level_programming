@@ -136,3 +136,9 @@ def main():
     #function to calculate area
     get_area(shape_type)
 main()"""
+
+name = input("Enter your name:")
+surname = input("enter your suname:")
+fullname = surname + name
+print(name[0].upper() + name[1:].lower() + " " + surname[0].upper() + surname[1:].lower())
+print (len(fullname))
