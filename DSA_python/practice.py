@@ -141,4 +141,7 @@ name = input("Enter your name:")
 surname = input("enter your suname:")
 fullname = surname + name
 print(name[0].upper() + name[1:].lower() + " " + surname[0].upper() + surname[1:].lower())
+reverse_name = name[::-1]
+print(name[0].replace('E', 'a'))#code only pics the first letter of the word
+print(reverse_name)
 print (len(fullname))
