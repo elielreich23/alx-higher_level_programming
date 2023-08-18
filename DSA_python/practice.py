@@ -136,7 +136,7 @@ def main():
     #function to calculate area
     get_area(shape_type)
 main()"""
-
+"""
 name = input("Enter your name:")
 surname = input("enter your suname:")
 fullname = surname + name
@@ -145,3 +145,23 @@ reverse_name = name[::-1]
 print(name[0].replace('E', 'a'))#code only pics the first letter of the word
 print(reverse_name)
 print (len(fullname))
+#a = int(input("enter a number:\n"))
+#b = int(input("enter a second number:\n"))
+sum = a + b 
+print("the sum of two interger is = ", sum)
+"""
+
+
+
+#same program but have some specifics
+num = list(map(int , input("enter a list of number: ").split()))
+target = int(input("enter the desired sum"))
+seen = {}
+for i, num in enumerate(num):
+        complement = target - num
+        if complement in seen:
+                print("indices:", seen[complement], i)
+                break
+        seen[num] = i 
+else:
+        print("There are no numbers in this list that add up to the desired sum")
