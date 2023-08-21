@@ -153,6 +153,8 @@ print("the sum of two interger is = ", sum)
 
 
 
+"""
+
 #same program but have some specifics
 num = list(map(int , input("enter a list of number: ").split()))
 target = int(input("enter the desired sum"))
@@ -164,4 +166,10 @@ for i, num in enumerate(num):
                 break
         seen[num] = i 
 else:
-        print("There are no numbers in this list that add up to the desired sum")
+        print("There are no numbers in this list that add up to the desired sum")"""
+
+import sys
+
+locate_python = sys.exec_prefix
+
+print(locate_python)
