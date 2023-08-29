@@ -168,8 +168,9 @@ for i, num in enumerate(num):
 else:
         print("There are no numbers in this list that add up to the desired sum")"""
 
-import sys
+#import sys
 
-locate_python = sys.exec_prefix
+#locate_python = sys.exec_prefix
 
-print(locate_python)
+#print(locate_python)
+
