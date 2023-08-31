@@ -3,6 +3,9 @@
 """Class to define Rectangle"""
 class Rectangle:
     """porps of the rectangle"""
+    
+    number_of_instances = 0
+    print_symbol = "#" 
 
     def __init__(self, width=0, height=0):
         """initialize the rectangle
