@@ -136,7 +136,6 @@ def main():
     #function to calculate area
     get_area(shape_type)
 main()"""
-<<<<<<< Updated upstream:DSA_python/practice.py
 """
 name = input("Enter your name:")
 surname = input("enter your suname:")
@@ -175,38 +174,3 @@ else:
 
 #print(locate_python)
 
-=======
-#print ("hello" + "world")'
-phrase = "eliel is a boy"
-location = "Benin"
-print(phrase.upper() +" " + location.lower())
-lenght = print (len(phrase) + len(location))
-print ("the lenght of the phrase is ", lenght)
-
-"""
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")"""
-
-"""def print_list_integer(my_list=[]):
-    my_list = [4,3,2,5,7]
-    n = 7
-    for n in my_list:
-        print("{:d}".format(n))
-def check_number_in_list(number, my_list):
-    if number in my_list:
-        return True
-    else:
-        return False
-
-# Predefined list of numbers
-numbers_list = [4, 3, 2, 5, 7]
-
-# Predefined number to check
-predefined_number = 5
-
-# Check if the predefined number belongs to the list
-if check_number_in_list(predefined_number, numbers_list):
-    print(f"{predefined_number} belongs to the list.")
-else:
-    print(f"{predefined_number} does not belong to the list.")"""
->>>>>>> Stashed changes:practice.py
