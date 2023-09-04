@@ -16,7 +16,6 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
 
-
         Args:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
@@ -78,15 +77,15 @@ class Rectangle:
         if rect_1.area() >= rect_2.area():
             return (rect_1)
         return (rect_2)
-    
+
     @classmethod
-    def square(cls, size =0):
-        """returns a returns a new Rectangle with height & width = size
+    def square(cls, size=0):
+        """Return a new Rectangle with width and height equal to size.
 
         Args:
-            size (int): height & width of new rectangle
+            size (int): The width and height of the new Rectangle.
         """
-        return(cls(size, size))
+        return (cls(size, size))
 
     def __str__(self):
         """Return the printable representation of the Rectangle.
@@ -113,3 +112,4 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
+        
