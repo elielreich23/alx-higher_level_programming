@@ -168,6 +168,9 @@ for i, num in enumerate(num):
 else:
         print("There are no numbers in this list that add up to the desired sum")"""
 
+friends = ["kim", "james", "peter"]
+#print(friends[0] + " is my best friend, " + friends[1] +  " is my brother ")
+print(friends[0] + " is my best friend, " + friends[1] + " is my brother")
 #import sys
 
 #locate_python = sys.exec_prefix
